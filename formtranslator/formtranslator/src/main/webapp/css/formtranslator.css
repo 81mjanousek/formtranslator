@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+#languageSelectDiv {
+	float: right;
+	margin-right: 2em;
+}
+
+.textFieldDiv {
+	height: 75px;
+	width: 17em;
+	float: left;
+}
+
+.textFieldDiv label,.textFieldDiv input {
+	display: block;
+}
+
+h4 {
+	margin-top: 0em;
+	margin-bottom: 5px;
+}
+
+.checkboxText {
+	vertical-align: top;
+	padding-top: 4px;
+}
+
+#questionnaire_part3 li {
+	clear: both;
+}
+
+.error {
+background-color: red;	
+}
+
+.errorMessage {
+color: red;	
+}
+
+.requiredLabel::after
+{
+content:"*";
+color: red;
+}
+
+#errorsDiv{
+color: red;	
+}
+
+.errorAccordion{
+color:red;	
+}
+
+.errorAnswer{
+border: medium dotted red;	
+}
+
+.validAccordion{
+	
+}
+
+
+
